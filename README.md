@@ -1,77 +1,80 @@
 # Landing Page - Mastering LinkedIn for Career Growth
+
 Landing page responsif dan modern untuk mempromosikan kelas online "Mastering LinkedIn for Career Growth".
 
-Fitur
-Desain clean dan minimalis
+## ✨ Fitur
 
-Fully responsive (mobile, tablet, desktop)
+- **Desain Clean & Minimalis** - Tampilan profesional yang fokus pada konten
+- **Fully Responsive** - Optimal di mobile, tablet, dan desktop
+- **Navigasi Smooth Scrolling** - Pengalaman navigasi yang halus
+- **Testimonial Carousel** - Menampilkan testimonial alumni secara bergantian
+- **FAQ Accordion** - Pertanyaan umum dengan sistem toggle
+- **Animasi Hover Effects** - Interaksi visual yang menarik
+- **Optimized Performance** - Waktu muat cepat dan efisien
 
-Navigasi smooth scrolling
+## 🛠️ Teknologi yang Digunakan
 
-Testimonial carousel
+- **HTML5** - Struktur konten modern
+- **CSS3** - Dengan CSS Variables untuk konsistensi desain
+- **Vanilla JavaScript** - Tanpa framework, ringan dan cepat
+- **Font Awesome** - Untuk ikon yang elegan
+- **Google Fonts** - Tipografi melalui 'Segoe UI'
 
-FAQ accordion
+## 🚀 Cara Menjalankan Project
 
-Animasi hover effects
+1. **Download atau clone repository ini**
+   ```bash
+   git clone https://github.com/username/repository-name.git
+   ```
 
-Optimized untuk performa
+2. **Buka file index.html di browser web Anda**
+   - Klik dua kali pada file `index.html`
+   - Atau drag file ke browser
 
-Teknologi yang Digunakan
-HTML5
+3. **Alternatif: jalankan melalui live server di VS Code**
+   - Install ekstensi Live Server
+   - Klik kanan pada `index.html`
+   - Pilih "Open with Live Server"
 
-CSS3 (dengan CSS Variables untuk konsistensi)
+## 📁 Struktur File
 
-Vanilla JavaScript (tanpa framework)
-
-Font Awesome untuk ikon
-
-Google Fonts (implisit melalui 'Segoe UI')
-
-Cara Menjalankan Project
-Download atau clone repository ini
-
-Buka file index.html di browser web Anda
-
-Atau, jalankan melalui live server di VS Code
-
-Struktur File
-text
+```
 linkedin-mastery-landing/
 │
-├── index.html          # File HTML utama
-├── README.md          # Dokumentasi proyek
-└── assets/            # Folder untuk assets (jika ada)
-    ├── images/        # Gambar yang digunakan
-    ├── css/           # File CSS terpisah (jika ada)
-    └── js/            # File JS terpisah (jika ada)
-Browser Support
+├── index.html                 # File HTML utama
+├── README.md                 # Dokumentasi proyek
+└── assets/                   # Folder untuk assets (jika ada)
+    ├── images/               # Gambar yang digunakan
+    ├── css/                  # File CSS terpisah (jika ada)
+    └── js/                   # File JS terpisah (jika ada)
+```
+
+## 🌐 Browser Support
+
 Browser modern yang mendukung:
+- **ES6+ JavaScript** - Fitur JavaScript modern
+- **CSS Flexbox dan Grid** - Layout responsif
+- **CSS Variables** - Variabel untuk konsistensi desain
 
-ES6+ JavaScript
+## 🎨 Penyesuaian
 
-CSS Flexbox dan Grid
+Warna utama dapat diubah dengan memodifikasi variabel CSS di bagian `:root`:
 
-CSS Variables
-
-Penyesuaian
-Warna utama dapat diubah dengan memodifikasi variabel CSS di bagian :root:
-
-css
+```css
 :root {
     --primary: #0a66c2;       /* Warna utama */
     --primary-dark: #004182;  /* Warna primer gelap */
     --accent: #ff8c00;        /* Warna aksen */
     /* ... variabel lainnya */
 }
-Interaktivitas
-Mobile-friendly navigation toggle
+```
 
-Testimonial carousel dengan navigasi dots
+## 🖱️ Interaktivitas
 
-FAQ accordion
-
-Smooth scrolling untuk navigasi
-
-Hover effects pada button dan card
+- **Mobile-friendly Navigation Toggle** - Menu navigasi untuk perangkat mobile
+- **Testimonial Carousel** dengan navigasi dots - Testimonial yang dapat di-scroll
+- **FAQ Accordion** - Sistem toggle untuk pertanyaan umum
+- **Smooth Scrolling** - Navigasi halus ke bagian halaman
+- **Hover Effects** - Efek interaktif pada button dan card
 
 Landing page ini telah dioptimalkan untuk performa dan pengalaman pengguna yang optimal.
