@@ -23,11 +23,13 @@ Landing page responsif dan modern untuk mempromosikan kelas online "Mastering Li
 ## 🚀 Cara Menjalankan Project
 
 1. **Download atau clone repository ini**
+
    ```bash
-   git clone https://github.com/username/repository-name.git
+   git clone https://github.com/hariantoputro/case-assessment-belajarlinkedin.git
    ```
 
 2. **Buka file index.html di browser web Anda**
+
    - Klik dua kali pada file `index.html`
    - Atau drag file ke browser
 
@@ -52,6 +54,7 @@ linkedin-mastery-landing/
 ## 🌐 Browser Support
 
 Browser modern yang mendukung:
+
 - **ES6+ JavaScript** - Fitur JavaScript modern
 - **CSS Flexbox dan Grid** - Layout responsif
 - **CSS Variables** - Variabel untuk konsistensi desain
@@ -62,10 +65,10 @@ Warna utama dapat diubah dengan memodifikasi variabel CSS di bagian `:root`:
 
 ```css
 :root {
-    --primary: #0a66c2;       /* Warna utama */
-    --primary-dark: #004182;  /* Warna primer gelap */
-    --accent: #ff8c00;        /* Warna aksen */
-    /* ... variabel lainnya */
+  --primary: #0a66c2; /* Warna utama */
+  --primary-dark: #004182; /* Warna primer gelap */
+  --accent: #ff8c00; /* Warna aksen */
+  /* ... variabel lainnya */
 }
 ```
 
